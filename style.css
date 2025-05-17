@@ -1,2 +1,51 @@
-@charset "UTF-8";
 
+:root {
+  --fundo: #f0ece9;
+  --caixa: #fffdfc;
+  --texto: #2f2f2f;
+  --borda: #5a3e36;
+  --titulo: #8a5c58;
+  --links:#533e3d;
+}
+
+body {
+  background-color: var(--fundo);
+  color: var(--texto);
+  font-family: Arial, sans-serif;
+}
+
+.caixa {
+  width: 90%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background-color: var(--caixa);
+  border: 2px solid var(--borda);
+  border-radius: 12px;
+}
+
+.titulo {
+  text-align: center;
+  color:white;
+  text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.5);
+ background-color:var(--titulo);
+ border-radius: 5px;
+}
+
+.menu {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.menu a {
+  margin: 0 10px;
+  color: var(--links);
+}
+
+.conteudo {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
