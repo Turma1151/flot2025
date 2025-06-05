@@ -71,6 +71,7 @@ background-color: #a1887f;
   text-align: center;
   margin-top: 15px;
   margin-bottom: 10px;
+  font-size: x-large;
 }
 
 .menu a {
@@ -157,12 +158,9 @@ h2{
     color: var(--borda);
     text-align: center;
     font-family: "Poppins", system-ui;
+    font-size: x-large;
 }
 
 span, a{
     color: var(--borda);
-}
-a{
-font-size: x-large;
-
 }
