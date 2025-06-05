@@ -1,3 +1,8 @@
+@charset "UTF-8" ;
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
   --fundo: #f0ece9;
@@ -11,31 +16,60 @@
 body {
   background-color: var(--fundo);
   color: var(--texto);
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
+
+}
+body.index{
+
+background-color: #3e2723;
+
+}
+
+body.comparacao{
+
+background-color:#795548 ;
+}
+body.antigas{
+
+background-color: #5d4037;
+
+}
+body.recentes{
+
+background-color:#8d6e63 ;
+
+}
+body.sobre{
+
+background-color: #a1887f;
+
 }
 
 .caixa {
-  width: 90%;
-  max-width: 800px;
+  
+  max-width: 100vh;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
   background-color: var(--caixa);
   border: 2px solid var(--borda);
-  border-radius: 12px;
+  border-radius: 15px;
 }
 
 .titulo {
   text-align: center;
   color:white;
-  text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.5);
- background-color:var(--titulo);
- border-radius: 5px;
+  text-shadow: 3px 1px 2px rgba(0, 0, 0);
+  background-color:var(--titulo);
+  border-radius: px;
+  font-family: "Ancizar Serif" sans-serif;
+  font-variant: small-caps;
+  font-size: 15px;
 }
 
 .menu {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 10px;
 }
 
@@ -46,6 +80,85 @@ body {
 
 .conteudo {
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+display: block;
+max-width: 500px;
+border: solid white 5px;
+box-shadow: 4px 4px 10px;
+
+}
+
+.livro{
+margin: 0 auto;
+width: 200px;
+}
+
+.carlos{
+
+max-width: 90%;
+max-height: 90%;
+width: 400px 400px;
+margin: 0 auto;
+}
+
+.bala, .cabelo{
+margin: 0 auto;
+float: none;
+
+max-width: 90%;
+max-height: 90%;
+width: 300px 300px;
+}
+
+.engano, .estrutural{
+margin: 0 auto;
+float: none;
+
+max-width: 90%;
+max-height: 90%;
+width: 100px 100px;
+}
+
+
+ul{
+font-style: italic;
+}
+
+footer{ 
+  display: inline;
+  background-color: #1c120b88 ;
+}
+
+.crime,.fenix{
+margin: 0 auto;
+float: none;
+
+max-width: 90%;
+max-height: 90%;
+width: 300px 300px; 
+}
+
+.rio,.gif {
+    margin: 0 auto;
+    float: none;
+
+    max-width: 90%;
+    max-height: 90%;
+    width: 300px 300px; 
+}
+
+h2{
+    color: var(--borda);
+    text-align: center;
+    font-family: "Poppins", system-ui;
+}
+
+span, a{
+    color: var(--borda);
 }
